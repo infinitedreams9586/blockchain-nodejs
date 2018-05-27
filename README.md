@@ -1,3 +1,5 @@
 # blockchain-nodejs
-Study purpose only..
-Work in progress..
+
+* Study purpose only..
+
+* Work in progress..

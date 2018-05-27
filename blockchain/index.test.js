@@ -1,4 +1,4 @@
-const Blockchain = require('./blockchain');
+const Blockchain = require('./index');
 const Block = require('./block');
 
 describe('Blockchain', () => {
@@ -35,6 +35,23 @@ describe('Blockchain', () => {
         blockchain2.addBlock('foo');
         blockchain2.chain[1].data = 'not foo';
         expect(blockchain.isValidChain(blockchain2.chain)).toBe(false);
+    });
+
+    it('replaces a chain with a new valid chain', () => {
+       blockchain2.addBlock('goo');
+       blockchain.replaceChain(blockchain2.chain);
+       expect(blockchain.chain).toEqual(blockchain2.chain);
+    });
+
+    it('does not replace a chain with a new valid chain having same length', () => {
+       blockchain2.addBlock('foo');
+       blockchain.addBlock('goo');
+       expect(blockchain.chain).not.toEqual(blockchain2.chain);
+    });
+
+    it('does not replace a chain with a new valid chain having less length', () => {
+        blockchain.addBlock('goo');
+        expect(blockchain.chain).not.toEqual(blockchain2.chain);
     });
 
 });

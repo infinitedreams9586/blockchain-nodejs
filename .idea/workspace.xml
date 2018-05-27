@@ -1,453 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fc6926-8f3c-4a14-ac2f-9bf29c6c0b41" name="Default" comment="Proof Of Work algorithm added.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/p2p-server.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/accepts/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/accepts/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/accepts/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/accepts/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/array-flatten/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/array-flatten/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/array-flatten/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/read.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.coveralls.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/karma.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/inspector-log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/Changelog.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/internal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/big5-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp936.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp949.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp950.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/eucjp.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf16.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf7.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/bom-handling.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-disposition/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-disposition/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-type/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-type/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-type/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-type/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/content-type/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/lib/browser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/lib/compat/callsite-tostring.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/lib/compat/event-listener-count.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/lib/compat/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/depd/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/destroy/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/destroy/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/destroy/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/destroy/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ee-first/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ee-first/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ee-first/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ee-first/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/encodeurl/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/encodeurl/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/encodeurl/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/encodeurl/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/escape-html/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/escape-html/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/escape-html/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/escape-html/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/etag/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/etag/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/etag/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/etag/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/read.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/json.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/raw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.coveralls.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/karma.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/src/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/src/debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/src/inspector-log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/src/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.eslintignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/dist/qs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/formats.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/stringify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/stringify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/lib/browser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/lib/compat/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/safe-buffer/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/.coveralls.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/karma.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/src/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/src/debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/src/inspector-log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/debug/src/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/forwarded/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/forwarded/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/forwarded/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/forwarded/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/forwarded/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/fresh/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/fresh/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/fresh/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/http-errors/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/http-errors/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/http-errors/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/Cakefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/src/ipaddr.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/buffer-util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/constants.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/event-target.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/extension.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/permessage-deflate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/receiver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/sender.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/validation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/websocket-server.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/lib/websocket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsdom/node_modules/ws/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/media-typer/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/media-typer/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/media-typer/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/media-typer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/media-typer/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/methods/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/methods/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/methods/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/methods/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/build/build.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/build/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/cli.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/mime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mime/types.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/charset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/encoding.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/language.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/mediaType.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-finished/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-finished/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-finished/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-finished/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-finished/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/parseurl/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/parseurl/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/parseurl/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/parseurl/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/range-parser/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/range-parser/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/range-parser/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/range-parser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/Changelog.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/internal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/big5-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp936.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp949.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp950.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/eucjp.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/utf16.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/encodings/utf7.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/lib/bom-handling.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/lib/extend-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/lib/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/lib/streams.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/node_modules/iconv-lite/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Porting-Buffer.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/dangerous.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/safer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/tests.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/.coveralls.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/karma.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/src/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/src/debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/src/inspector-log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/debug/src/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/send/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-static/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-static/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-static/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/codes.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/statuses/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/type-is/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/type-is/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/type-is/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/type-is/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/type-is/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/unpipe/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/unpipe/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/unpipe/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/unpipe/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/unpipe/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/utils-merge/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/utils-merge/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/utils-merge/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/utils-merge/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/utils-merge/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vary/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vary/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vary/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vary/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vary/package.json" />
+    <list default="true" id="d9fc6926-8f3c-4a14-ac2f-9bf29c6c0b41" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
       <change beforePath="$PROJECT_DIR$/blockchain/block.js" afterPath="$PROJECT_DIR$/blockchain/block.js" />
       <change beforePath="$PROJECT_DIR$/blockchain/block.test.js" afterPath="$PROJECT_DIR$/blockchain/block.test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/README.md" afterPath="$PROJECT_DIR$/node_modules/ws/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/buffer-util.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/buffer-util.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/constants.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/constants.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/permessage-deflate.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/permessage-deflate.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/receiver.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/receiver.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/sender.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/sender.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket-server.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/websocket-server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket.js" afterPath="$PROJECT_DIR$/node_modules/ws/lib/websocket.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ws/package.json" afterPath="$PROJECT_DIR$/node_modules/ws/package.json" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change beforePath="$PROJECT_DIR$/dev-test.js" afterPath="$PROJECT_DIR$/dev-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -467,8 +26,8 @@
       <file leaf-file-name="block.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blockchain/block.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -477,18 +36,28 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="block.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="block.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blockchain/block.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="19">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -527,7 +96,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blockchain/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="243">
               <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding />
             </state>
@@ -539,16 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev-test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -570,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev-test.js" />
         <option value="$PROJECT_DIR$/block.test.js" />
         <option value="$PROJECT_DIR$/blockchain.test.js.css" />
         <option value="$PROJECT_DIR$/block.js" />
@@ -581,9 +139,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/p2p-server.js" />
         <option value="$PROJECT_DIR$/app/index.js" />
-        <option value="$PROJECT_DIR$/blockchain/block.js" />
         <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/blockchain/block.js" />
         <option value="$PROJECT_DIR$/blockchain/block.test.js" />
+        <option value="$PROJECT_DIR$/dev-test.js" />
       </list>
     </option>
   </component>
@@ -676,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Block.generates a hash that matches the difficulty">
+  <component name="RunManager" selected="Jest.Block.keeps the difficulty same for mined blocks within mine rate">
     <configuration name="Block.generates a hash that matches the difficulty" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -687,6 +246,18 @@
       <test-names>
         <test-name value="Block" />
         <test-name value="generates a hash that matches the difficulty" />
+      </test-names>
+    </configuration>
+    <configuration name="Block.keeps the difficulty same for mined blocks within mine rate" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blockchain/block.test.js" />
+      <test-names>
+        <test-name value="Block" />
+        <test-name value="keeps the difficulty same for mined blocks within mine rate" />
       </test-names>
     </configuration>
     <configuration name="Blockchain.invalids a corrupt chain" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
@@ -725,18 +296,20 @@
         <test-name value="validates a valid chain" />
       </test-names>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Jest.Blockchain.validates a valid chain" />
       <item index="1" class="java.lang.String" itemvalue="Jest.Blockchain.invalids a corrupt chain" />
       <item index="2" class="java.lang.String" itemvalue="Jest.Blockchain.replaces a chain with a new valid chain" />
       <item index="3" class="java.lang.String" itemvalue="Jest.Block.generates a hash that matches the difficulty" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.Block.keeps the difficulty same for mined blocks within mine rate" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Jest.Block.generates a hash that matches the difficulty" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.Blockchain.replaces a chain with a new valid chain" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.Blockchain.invalids a corrupt chain" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.Blockchain.validates a valid chain" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Jest.Block.keeps the difficulty same for mined blocks within mine rate" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.Block.generates a hash that matches the difficulty" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.Blockchain.replaces a chain with a new valid chain" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.Blockchain.invalids a corrupt chain" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.Blockchain.validates a valid chain" />
       </list>
     </recent_temporary>
   </component>
@@ -755,7 +328,7 @@
       <updated>1527306506773</updated>
       <workItem from="1527306508119" duration="1212000" />
       <workItem from="1527307881535" duration="75000" />
-      <workItem from="1527308007451" duration="16353000" />
+      <workItem from="1527308007451" duration="19616000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit. Work Just started.">
       <created>1527306763140</created>
@@ -785,12 +358,28 @@
       <option name="project" value="LOCAL" />
       <updated>1527394498486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Proof Of Work algorithm added.">
+      <created>1527403909515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527403909515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Block_generates_a_hash_that_matches_the_difficulty - 2018.05.27 at 15h 47m 29s.xml">
       <configuration name="Block.generates a hash that matches the difficulty" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Block_keeps_the_difficulty_same_for_mined_blocks_within_mine_rate - 2018.05.27 at 16h 57m 42s.xml">
+      <configuration name="Block.keeps the difficulty same for mined blocks within mine rate" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Block_keeps_the_difficulty_same_for_mined_blocks_within_mine_rate - 2018.05.27 at 17h 01m 43s.xml">
+      <configuration name="Block.keeps the difficulty same for mined blocks within mine rate" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Block_keeps_the_difficulty_same_for_mined_blocks_within_mine_rate - 2018.05.27 at 17h 02m 59s.xml">
+      <configuration name="Block.keeps the difficulty same for mined blocks within mine rate" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="Blockchain_invalids_a_corrupt_chain - 2018.05.26 at 19h 12m 01s.xml">
       <configuration name="Blockchain.invalids a corrupt chain" configurationId="JavaScriptTestRunnerJest" />
@@ -804,15 +393,6 @@
     <history-entry file="Blockchain_replaces_a_chain_with_a_new_valid_chain - 2018.05.26 at 19h 31m 10s.xml">
       <configuration name="Blockchain.replaces a chain with a new valid chain" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Blockchain_validates_a_valid_chain - 2018.05.26 at 18h 58m 17s.xml">
-      <configuration name="Blockchain.validates a valid chain" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Blockchain_validates_a_valid_chain - 2018.05.26 at 18h 59m 57s.xml">
-      <configuration name="Blockchain.validates a valid chain" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Blockchain_validates_a_valid_chain - 2018.05.26 at 19h 00m 39s.xml">
-      <configuration name="Blockchain.validates a valid chain" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="Blockchain_validates_a_valid_chain - 2018.05.26 at 19h 05m 24s.xml">
       <configuration name="Blockchain.validates a valid chain" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -821,23 +401,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17640000" />
+    <option name="totallyTimeSpent" value="20903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1280" height="730" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16521049" sideWeight="0.49448818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19539317" sideWeight="0.5055118" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52125984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21889764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19539317" sideWeight="0.5055118" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27874017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38582677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -870,7 +450,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -923,26 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blockchain/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -963,10 +527,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blockchain/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="129">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -979,34 +551,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blockchain/block.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="261">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blockchain/block.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="19">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>

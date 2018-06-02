@@ -2,4 +2,3 @@
 
 * Study purpose only..
 
-* Work in progress..

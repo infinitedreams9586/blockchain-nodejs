@@ -23,6 +23,32 @@ describe('Transaction', () => {
         expect(transaction.input.amount).toEqual(wallet.balance);
     });
 
+    it('validates a valid transation', () => {
+        expect(Transaction.verifyTransaction(transaction)).toBe(true);
+    });
+
+    it('invalidates a corrupt transaction', () => {
+       transaction.outputs[0].amount = 100;
+       expect(Transaction.verifyTransaction(transaction)).toBe(false);
+    });
+
+    describe('upating a transaction', ()=>{
+        let nextAmount, nextRecipient;
+        beforeEach(()=>{
+            nextAmount = 20;
+            nextRecipient = 'n3xt-r3c1p13nt';
+            transaction = transaction.update(wallet, nextRecipient, nextAmount);
+        });
+
+        it('calculates the next amount properly', ()=>{
+            expect(transaction.outputs.find(output => output.address === wallet.publicKey).amount).toEqual(wallet.balance - amount - nextAmount)
+        });
+
+        it('outputs amount for the next recipient', ()=>{
+            expect(transaction.outputs.find(output => output.address === nextRecipient).amount).toEqual(nextAmount);
+        });
+    });
+
     describe('transacting with an amount that exceeds the balance', () =>{
         beforeEach(() => {
             amount = 50000;

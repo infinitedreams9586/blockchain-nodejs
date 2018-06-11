@@ -4,13 +4,14 @@ const Wallet = require('./index');
 const Blockchain = require('../blockchain');
 
 describe('TransactionPool', () =>{
-   let tp, wallet, transaction, bc;
+   let tp, wallet, transaction, bc, fee;
 
    beforeEach(() =>{
        tp = new TransactionPool();
        wallet = new Wallet();
        bc = new Blockchain();
-       transaction = wallet.createTransaction('random-address', 30, bc, tp);
+       fee = 1;
+       transaction = wallet.createTransaction('random-address', 30, bc, tp, fee);
    });
 
    it('adds a transaction to the pool', ()=>{
@@ -19,7 +20,7 @@ describe('TransactionPool', () =>{
 
    it('updates a transaction in the pool', () => {
        const oldTransaction = JSON.stringify(transaction);
-       const newTransaction = transaction.update(wallet, 'foo-address', 40);
+       const newTransaction = transaction.update(wallet, 'foo-address', 40, fee);
        tp.updateOrAddTransaction(newTransaction);
        expect(JSON.stringify(tp.transactions.find(t => t.id === newTransaction.id))).not.toEqual(oldTransaction);
    });
@@ -34,9 +35,10 @@ describe('TransactionPool', () =>{
 
        beforeEach(() => {
             validTransactions = [...tp.transactions];
+            fee = 1;
             for(let i=0; i<6; i++){
                 wallet = new Wallet();
-                transaction = wallet.createTransaction('random-address', 30, bc, tp);
+                transaction = wallet.createTransaction('random-address', 10, bc, tp, fee);
                 if(i%2==0){
                     // corrupt transaction
                     transaction.input.amount = 5000;
@@ -51,7 +53,8 @@ describe('TransactionPool', () =>{
        });
 
        it('grabs valid transactions', () =>{
-            expect(tp.validTransactions()).toEqual(validTransactions);
+           var vt = tp.validTransactions()
+           expect(vt).toEqual(validTransactions);
        });
    });
 

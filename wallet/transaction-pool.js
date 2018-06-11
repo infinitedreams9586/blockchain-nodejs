@@ -25,7 +25,7 @@ class TransactionPool {
                 return total + output.amount;
             }, 0);
 
-            if (transaction.input.amount !== outputTotal){
+            if (transaction.input.amount !== outputTotal + transaction.fee){
                 console.log(`Invalid transaction from ${transaction.input.address}`);
                 return;
             }
